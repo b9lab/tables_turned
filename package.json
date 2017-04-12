@@ -1,0 +1,44 @@
+{
+  "name": "tables_turned",
+  "version": "1.0.0",
+  "description": "A study of the 0.4.5 Solidity compiler bug scam.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/helpMeSave*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "q": "^1.5.0",
+    "truffle-contract": "^2.0.0"
+  },
+  "devDependencies": {
+    "assert-plus": "^1.0.0",
+    "chai": "^3.5.0",
+    "ethereumjs-testrpc": "^3.0.3",
+    "truffle": "^3.2.1"
+  },
+  "jshintConfig": {
+    "browser": false,
+    "curly": true,
+    "eqeqeq": true,
+    "esversion": 6,
+    "globalstrict": true,
+    "globals": {
+      "artifacts": true,
+      "contract": true,
+      "describe": true,
+      "it": true,
+      "assert": true
+    },
+    "latedef": true,
+    "maxdepth": 3,
+    "maxparams": 3,
+    "mocha": true,
+    "node": true,
+    "undef": true,
+    "unused": true,
+    "varstmt": true
+  }
+}
