@@ -8,6 +8,6 @@ Started here: https://np.reddit.com/r/ethtrader/comments/5foa5p/daily_discussion
 
 ```sh
 $ npm install
-$ ./node_modules/.bin/truffle compile
+$ npm run compile
 $ npm test
 ```

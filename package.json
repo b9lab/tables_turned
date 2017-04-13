@@ -4,6 +4,7 @@
   "description": "A study of the 0.4.5 Solidity compiler bug scam.",
   "main": "index.js",
   "scripts": {
+    "compile": "./node_modules/.bin/truffle compile",
     "test": "./node_modules/.bin/mocha test/helpMeSave*"
   },
   "author": "",
